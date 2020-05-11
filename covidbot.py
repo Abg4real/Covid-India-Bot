@@ -1,12 +1,10 @@
-# bot.py
 import os
 import requests
 import discord
 from dotenv import load_dotenv
 
 load_dotenv()
-TOKEN = os.getenv('DISCORD_TOKEN')
-GUILD = os.getenv('DISCORD_GUILD')
+TOKEN = '' # Your token here
 
 client = discord.Client()
 
